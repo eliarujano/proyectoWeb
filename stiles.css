@@ -52,7 +52,7 @@ article{
   color:#FFA55D;
   border-radius: 5px;
   margin-top: 10px;
-  }
+}
 
 article:hover{
   box-shadow: 0px 0px 26px 5px rgba(224,221,114,0.62);
@@ -88,7 +88,7 @@ footer{
   height: 70px;
   width:80%;
   margin: 0px auto;
-   }
+}
 footer > p{
   width: 45%;
   margin: 0px auto;
