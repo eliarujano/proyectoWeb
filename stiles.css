@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galindo&display=swap');
+.walter-turncoat-regular {
+  font-family: "Walter Turncoat", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.slackey-regular {
+  font-family: "Slackey", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.galindo-regular {
+  font-family: "Galindo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+  width: 80%;
+  margin: 0px auto;
+  padding: 10px;
+  padding-bottom: 8px;
+  background-color:#FFA55D;
+  text-align: center;
+  color:#222222;
+  border-radius: 80px;
+  height: 50px;
+  padding-top: 20px;
+  border:4px solid #A76545
+}
+section{
+  background-color: #222222;
+  padding: 80px 0px;
+  margin: 0px auto;
+  display: flow-root;
+  width: 80%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-bottom: 10px; 
+  background-color: #060606;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #060606 26px ), repeating-linear-gradient( #2A3D4555, #2A3D45 );
+}
+article{
+  width:calc((100% / 3) - 40px);
+  line-height: 40px;
+  float:left;
+  margin: 0px 20px;
+  background-color:#854836;
+  text-align: center;
+  color:#FFA55D;
+  border-radius: 5px;
+  margin-top: 10px;
+  }
+
+article:hover{
+  box-shadow: 0px 0px 26px 5px rgba(224,221,114,0.62);
+-webkit-box-shadow: 0px 0px 26px 5px rgba(224,221,114,0.62);
+-moz-box-shadow: 0px 0px 26px 5px rgba(224,221,114,0.62);
+ 
+}
+article > h2 {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  line-height: normal;
+  color: white;
+  font-family: "Slackey", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+article > p {
+  margin: 8px auto 12px auto;
+  padding: 0 12px;
+  color:#FFDF88;
+  line-height: 1;
+  font-family: "Walter Turncoat", cursive;
+  font-style: normal;
+  text-align: justify; 
+}
+footer{
+  display: flow-root;
+  margin: 0px 20px;
+  background-color: #2A3D45;
+  text-align: center;
+  color: white;
+  height: 70px;
+  width:80%;
+  margin: 0px auto;
+   }
+footer > p{
+  width: 45%;
+  margin: 0px auto;
+  padding: 10px 2px;
+  background-color: #7D84B2;
+  text-align: center;
+  line-height: 3px;
+  color: white;
+  border-radius: 80px;
+  height: 10px;
+  padding-top: 20px;
+  margin-top: 14px;
+  margin-left:10px;
+  float:left;
+  border:1px solid white;
+  font-family: "Walter Turncoat", cursive;
+  font-style: normal;
+}
+footer > a {
+  display: block;
+  float: right;
+  margin: 8px 10px;
+  background-color: #ACC572;
+  text-align: center;
+  color: white;
+  height: 50px;
+  width:50px;
+  border-radius: 50%;
+  margin-top: 8px;
+}
+.last{
+   background-color: #7D84B2;
+}
+article > img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+}
+article > img:hover{
+   filter: grayscale(0%);
+}
+article a{
+   text-decoration:none;
+}
+article > a > button {
+  width: 80%;
+  margin: 20px auto 10px auto;
+  padding: 10px;
+  background-color: #FFB26F;
+  text-align: center;
+  display: block;
+  line-height: normal;
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+  border: solid #DE8F5F;
+  font-family: "Galindo", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+article > a > button:hover {
+background-color: #e0dd72;
+border: solid  #b5b24e;
+font-weight: 700;
+color: #b5b24e
+}
+footer > a > i{
+  width: 100%;
+  padding:8px 0px;
+  text-aling: center;
+  font-size: 35px;
+  color: white;
+}
+i:hover{
+  color: black;
+}
+body{
+  margin:0;
+background: #FFA55D;
+background: radial-gradient(circle, rgba(255, 165, 93, 1) 9%, rgba(133, 72, 54, 1) 45%, rgba(42, 61, 69, 1) 83%);
+}
